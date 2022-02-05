@@ -1,3 +1,5 @@
+--fizzbuzz
+
 fizzBuzz :: Int -> String
 fizzBuzz n | n `mod` 15 == 0 = "fizzbuzz"
            | n `mod` 3 == 0  = "fizz"

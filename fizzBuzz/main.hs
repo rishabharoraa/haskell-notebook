@@ -6,6 +6,3 @@ fizzBuzz n | n `mod` 15 == 0 = "fizzbuzz"
 
 res :: [String]
 res = map fizzBuzz [1..100]
-
-main :: IO ()
-main = print res
